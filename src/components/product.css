@@ -1,0 +1,28 @@
+.product {
+  display: inline-block;
+  border: solid 3px black;
+  margin: 10px;
+  height: 330px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.product:hover {
+  border-color: orangered;
+}
+
+.product img {
+  border-radius: 10px;
+  border: solid 1px black;
+}
+
+.product div.costs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product div.costs label {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: solid 2px orangered;
+}/*# sourceMappingURL=product.css.map */

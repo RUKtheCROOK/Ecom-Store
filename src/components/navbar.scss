@@ -7,18 +7,18 @@
   font-weight: 900;
 }
 .navtext {
-  color: #03045e;
+  color: black;
 }
 .navborder {
   background-color: white;
   font-weight: 600;
   margin-left: auto;
   margin-right: auto;
-  border: solid 2px #03045e;
+  border: solid 2px black;
   border-radius: 10px;
 }
 .navborder:hover {
-  background-color: #03045e;
+  background-color: black;
   .navtext {
     color: white;
   }

@@ -1,0 +1,51 @@
+let catalog = [
+  {
+    title: "apples",
+    category: "fruit",
+    price: 1.2,
+    image: "apples.jpg",
+    _id: "1",
+  },
+  {
+    title: "oranges",
+    category: "fruit",
+    price: 1.3,
+    image: "oranges.jpg",
+    _id: "2",
+  },
+  {
+    title: "bananas",
+    category: "fruit",
+    price: 1.4,
+    image: "bananas.jpg",
+    _id: "3",
+  },
+  {
+    title: "pears",
+    category: "fruit",
+    price: 1.5,
+    image: "pears.jpg",
+    _id: "4",
+  },
+  {
+    title: "grapes",
+    category: "fruit",
+    price: 1.6,
+    image: "grapes.jpg",
+    _id: "5",
+  },
+  {
+    title: "carrots",
+    category: "vegetable",
+    price: 1.7,
+    image: "carrots.jpg",
+    _id: "6",
+  },
+  {
+    title: "celery",
+    category: "vegetable",
+    price: 1.8,
+    image: "celery.jpg",
+    _id: "7",
+  },
+];

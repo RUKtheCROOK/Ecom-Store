@@ -11886,5 +11886,6 @@ textarea.form-control-lg {
   }
 }
 h1, .h1 {
-  color: red;
+  color: black;
+  border-bottom: solid 2px orangered;
 }/*# sourceMappingURL=App.css.map */

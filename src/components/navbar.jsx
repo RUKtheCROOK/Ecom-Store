@@ -2,15 +2,15 @@ import "./navbar.css";
 
 function Navbar() {
   return (
-    <div class="navigationbar">
-      <ul class="nav justify-content-center">
-        <li class="nav-item navborder">
-          <a class="nav-link navtext" aria-current="page" href="#">
+    <div className="navigationbar">
+      <ul className="nav justify-content-center">
+        <li className="nav-item navborder">
+          <a className="nav-link navtext" aria-current="page" href="#">
             🏡 Home
           </a>
         </li>
-        <li class="nav-item navborder">
-          <a class="nav-link navtext" href="#">
+        <li className="nav-item navborder">
+          <a className="nav-link navtext" href="#">
             📒 Next Page
           </a>
         </li>
