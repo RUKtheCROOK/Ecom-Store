@@ -7,7 +7,10 @@ import "bootstrap/dist/js/bootstrap.min.js";
 function App() {
   return (
     <div className="App">
-      <h1>React Store</h1>
+      <div className="logobackground">
+        <img class="logo" src="/images/storelogo.png" alt="store logo" />
+      </div>
+
       <Navbar />
       <Catalog />
       <Footer />

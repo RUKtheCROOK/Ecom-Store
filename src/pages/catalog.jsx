@@ -25,7 +25,7 @@ function Catalog() {
   let length = setProducts.length;
   return (
     <div className="catalog container">
-      <h1>Catalog</h1>
+      <h2>Catalog</h2>
       <h5>Product Number: {products.length}</h5>
       <button className="btn btn-dark" onClick={magicTest}>
         Magic

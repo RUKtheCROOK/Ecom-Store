@@ -1,1 +1,10 @@
-/*# sourceMappingURL=catalog.css.map */
+.catalog h2 {
+  color: black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke;
+  margin-top: 3px;
+  border: solid orangered 2px;
+  border-radius: 10px;
+}/*# sourceMappingURL=catalog.css.map */
