@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="logobackground">
-        <img class="logo" src="/images/storelogo.png" alt="store logo" />
+        <img className="logo" src="/images/storelogo.png" alt="store logo" />
       </div>
 
       <Navbar />
