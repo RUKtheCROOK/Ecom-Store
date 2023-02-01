@@ -11888,4 +11888,8 @@ textarea.form-control-lg {
 h1, .h1 {
   color: black;
   border-bottom: solid 2px orangered;
+}
+
+body {
+  background-color: #aaaaaa;
 }/*# sourceMappingURL=App.css.map */

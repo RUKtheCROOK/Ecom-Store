@@ -5,6 +5,7 @@
   height: 330px;
   width: 200px;
   border-radius: 10px;
+  background-color: white;
 }
 
 .product:hover {
@@ -14,6 +15,8 @@
 .product img {
   border-radius: 10px;
   border: solid 1px black;
+  width: 150px;
+  height: 150px;
 }
 
 .product div.costs {

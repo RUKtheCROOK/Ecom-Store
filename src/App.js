@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Catalog from "./pages/catalog";
+import "bootstrap/dist/js/bootstrap.min.js";
 
 function App() {
   return (

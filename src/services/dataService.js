@@ -2,50 +2,58 @@ let catalog = [
   {
     title: "apples",
     category: "fruit",
-    price: 1.2,
-    image: "apples.jpg",
+    price: Number("16.25"),
+    image: "https://picsum.photos/151/150",
     _id: "1",
   },
   {
     title: "oranges",
     category: "fruit",
-    price: 1.3,
-    image: "oranges.jpg",
+    price: Number("1.3"),
+    image: "https://picsum.photos/150/151",
     _id: "2",
   },
   {
     title: "bananas",
     category: "fruit",
-    price: 1.4,
-    image: "bananas.jpg",
+    price: Number("1.4"),
+    image: "https://picsum.photos/152/150",
     _id: "3",
   },
   {
     title: "pears",
     category: "fruit",
-    price: 1.5,
-    image: "pears.jpg",
+    price: Number("1.5"),
+    image: "https://picsum.photos/150/152",
     _id: "4",
   },
   {
     title: "grapes",
     category: "fruit",
-    price: 1.6,
-    image: "grapes.jpg",
+    price: Number("1.6"),
+    image: "https://picsum.photos/153/150",
     _id: "5",
   },
   {
     title: "carrots",
     category: "vegetable",
-    price: 1.7,
-    image: "carrots.jpg",
+    price: Number("1.7"),
+    image: "https://picsum.photos/150/153",
     _id: "6",
   },
   {
     title: "celery",
     category: "vegetable",
-    price: 1.8,
-    image: "celery.jpg",
+    price: Number("1.8"),
+    image: "https://picsum.photos/154/150",
     _id: "7",
   },
 ];
+
+class DataService {
+  getData() {
+    return catalog;
+  }
+}
+
+export default DataService;
