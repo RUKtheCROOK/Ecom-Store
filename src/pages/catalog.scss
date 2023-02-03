@@ -11,3 +11,14 @@
   border: solid orangered 2px;
   border-radius: 10px;
 }
+.catalog .buttons {
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.catalog .btn-space {
+  margin-left: 2px;
+  margin-right: 2px;
+}

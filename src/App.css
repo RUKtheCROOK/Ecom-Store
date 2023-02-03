@@ -11886,8 +11886,6 @@ textarea.form-control-lg {
   }
 }
 .logo {
-  margin-left: auto;
-  margin-right: auto;
   background-color: white;
   margin-top: -60px;
   border-radius: 50%;
@@ -11903,4 +11901,25 @@ textarea.form-control-lg {
 
 body {
   background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  .logo {
+    width: auto;
+    height: auto;
+  }
+  .logobackground {
+    width: auto;
+  }
+}
+@media screen and (max-width: 393px) {
+  .logo {
+    display: none;
+  }
+  .logobackground {
+    width: 100%;
+  }
 }/*# sourceMappingURL=App.css.map */
