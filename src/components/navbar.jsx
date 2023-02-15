@@ -24,13 +24,27 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item navborder">
-                <a className="nav-link navtext" aria-current="page" href="#">
+                <a
+                  className="nav-link navtext"
+                  aria-current="page"
+                  href="/home"
+                >
                   🏡 Home
                 </a>
               </li>
               <li className="nav-item navborder">
-                <a className="nav-link navtext" href="#">
-                  📒 Next Page
+                <a className="nav-link navtext" href="/catalog">
+                  📒 Catalog
+                </a>
+              </li>
+              <li className="nav-item navborder">
+                <a className="nav-link navtext" href="/admin">
+                  🤓 Admin
+                </a>
+              </li>
+              <li className="nav-item navborder">
+                <a className="nav-link navtext" href="/about">
+                  📗 About
                 </a>
               </li>
               {/* <li className="nav-item dropdown">
