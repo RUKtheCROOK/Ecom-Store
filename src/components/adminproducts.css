@@ -1,0 +1,12 @@
+.adminproducts h1 {
+  color: blue;
+}
+
+.adminproducts {
+  margin: 20px;
+  border: solid black 3px;
+}
+
+.adminproducts button {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=adminproducts.css.map */
