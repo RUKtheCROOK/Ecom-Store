@@ -2,8 +2,8 @@ import "./coupon.css";
 import { useState } from "react";
 
 function Coupon() {
-  let [coupon, setCoupon] = useState({ code: "", discount: "" });
-  let [currentList, setCurrentList] = useState([]);
+  const [coupon, setCoupon] = useState({ code: "", discount: "" });
+  const [currentList, setCurrentList] = useState([]);
 
   function saved() {
     console.log("The coupon is", coupon);

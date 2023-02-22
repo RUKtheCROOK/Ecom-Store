@@ -2,7 +2,7 @@ import "./quantityPicker.css";
 import { useState } from "react";
 
 function QuantityPicker(properties) {
-  let [quantity, setQuantity] = useState(1);
+  const [quantity, setQuantity] = useState(1);
   function decrease() {
     let value = quantity - 1;
     if (value < 1) {

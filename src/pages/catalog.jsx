@@ -3,9 +3,9 @@ import Products from "./../components/product";
 import { useEffect, useState } from "react";
 import DataService from "./../services/dataService";
 function Catalog() {
-  let [products, setProducts] = useState([]);
-  let [categories, setCategories] = useState([]);
-  let [productDisplay, setProductDisplay] = useState([]);
+  const [products, setProducts] = useState([]);
+  const [categories, setCategories] = useState([]);
+  const [productDisplay, setProductDisplay] = useState([]);
 
   useEffect(function () {
     console.log("Catalog Mounted");

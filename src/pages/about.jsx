@@ -1,8 +1,8 @@
 import "./about.css";
 import { useState } from "react";
 function About() {
-  let [visible, setVisible] = useState(false);
-  let [phoneVis, setPhoneVis] = useState(false);
+  const [visible, setVisible] = useState(false);
+  const [phoneVis, setPhoneVis] = useState(false);
   function getEmail() {
     return visible ? "My email: johnbitcoingarcia1@gmail.com" : " ";
   }

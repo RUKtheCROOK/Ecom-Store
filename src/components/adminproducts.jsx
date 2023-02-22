@@ -2,8 +2,8 @@ import "./adminproducts.css";
 import { useState } from "react";
 
 function AdminProducts() {
-  let [products, setProducts] = useState({});
-  let [allProducts, setAllProducts] = useState([]);
+  const [products, setProducts] = useState({});
+  const [allProducts, setAllProducts] = useState([]);
   function textChanged(event) {
     let text = event.target.value;
     let attribute = event.target.name;
