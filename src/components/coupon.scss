@@ -1,8 +1,30 @@
-.coupon h1 {
-  color: greenyellow;
+.coupon h2 {
+  color: black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-top: 3px;
+  border-bottom: solid orangered 2px;
 }
 
 .coupon {
   margin: 20px;
-  border: solid black 3px;
+  border: solid orangered 3px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+}
+
+.coupon button {
+  margin-bottom: 10px;
+}
+
+.coupon .bubby-1 {
+  border: solid black 2px;
+}
+.coupon label {
+  font-size: 22px;
+  font-weight: 600;
+  border-bottom: solid orangered 2px;
 }

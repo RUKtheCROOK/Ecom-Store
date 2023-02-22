@@ -24,7 +24,7 @@ function Products(properties) {
   }
   function handleAdd() {
     console.log("Add button clicked", properties.product);
-    addToCart();
+    addToCart(properties.product);
   }
   return (
     <div className="product">

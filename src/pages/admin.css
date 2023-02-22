@@ -1,8 +1,14 @@
 .admin h1 {
-  color: red;
+  color: black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke;
+  margin-top: 3px;
+  border: solid orangered 2px;
+  border-radius: 10px;
 }
 
 .admin .flex {
   display: inline-flex;
-  border: solid black 3px;
 }/*# sourceMappingURL=admin.css.map */

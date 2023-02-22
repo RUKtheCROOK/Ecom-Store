@@ -21,8 +21,9 @@ function About() {
     }
   }
   return (
-    <div className="about">
+    <div className="about container">
       <h1>About</h1>
+      <br />
       <h3>My name: John Garcia</h3>
       <h3>{getEmail()}</h3>
       <button className="btn btn-dark" onClick={showEmail}>
@@ -32,9 +33,13 @@ function About() {
       <hr />
 
       <p>Password for number:</p>
-      <input type="password" placeholder="pass" onChange={validateCode} />
+      <input
+        type="password"
+        placeholder="pass = 1234abc"
+        onChange={validateCode}
+      />
 
-      <h3>{getPhone()}</h3>
+      <h2>{getPhone()}</h2>
     </div>
   );
 }

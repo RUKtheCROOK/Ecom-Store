@@ -42,7 +42,7 @@ function Catalog() {
   let id = 0;
   return (
     <div className="catalog container">
-      <h2>Catalog</h2>
+      <h1>Catalog</h1>
       <h5>Product Number: {products.length}</h5>
       <div className="buttons">
         <button className="btn btn-dark btn-space" onClick={clearFilter}>

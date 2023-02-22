@@ -22,7 +22,7 @@ function AdminProducts() {
   }
   return (
     <div className="adminproducts">
-      <h1>Admin Products</h1>
+      <h2>Admin Products</h2>
       <div className="container">
         <div className="mb-3">
           <label className="form-label">Title:</label>
@@ -31,7 +31,7 @@ function AdminProducts() {
             onChange={textChanged}
             type="text"
             id="txt-title"
-            className="form-control"
+            className="form-control bubby-1"
             placeholder="Title Here"
           />
         </div>
@@ -42,7 +42,7 @@ function AdminProducts() {
             onChange={textChanged}
             type="text"
             id="txt-category"
-            className="form-control"
+            className="form-control bubby-1"
             placeholder="Category Here"
           />
         </div>
@@ -53,7 +53,7 @@ function AdminProducts() {
             onChange={textChanged}
             type="file"
             id="img-image"
-            className="form-control"
+            className="form-control bubby-1"
           />
           {/* <select id="sel-gender" class="form-control">
             <option value="Male">Male</option>
@@ -68,7 +68,8 @@ function AdminProducts() {
             onChange={textChanged}
             type="number"
             id="txt-price"
-            className="form-control"
+            className="form-control bubby-1"
+            placeholder="Price Here"
           />
         </div>
         <button className="btn btn-dark" onClick={save}>

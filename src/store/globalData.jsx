@@ -7,6 +7,11 @@ function GlobalData(properties) {
 
   function addToCart(product) {
     console.log("global is called");
+    // to modify the cart, we need to make a copy of it
+    // set the copy to the cart
+    let copy = [...cart];
+    copy.push(product);
+    setCart(copy);
   }
   function removeFromCart(product) {}
   return (

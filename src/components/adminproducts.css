@@ -1,12 +1,31 @@
-.adminproducts h1 {
-  color: blue;
+.adminproducts h2 {
+  color: black;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-top: 3px;
+  border-bottom: solid orangered 2px;
 }
 
 .adminproducts {
   margin: 20px;
-  border: solid black 3px;
+  border: solid orangered 3px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
 }
 
 .adminproducts button {
   margin-bottom: 10px;
+}
+
+.adminproducts .bubby-1 {
+  border: solid black 2px;
+}
+
+.adminproducts label {
+  font-size: 22px;
+  font-weight: 600;
+  border-bottom: solid orangered 2px;
 }/*# sourceMappingURL=adminproducts.css.map */

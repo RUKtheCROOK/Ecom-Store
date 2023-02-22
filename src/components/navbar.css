@@ -11,6 +11,10 @@
   border-radius: 10px;
 }
 
+#form-cart {
+  padding: 10px;
+}
+
 .navborder:hover {
   background-color: black;
   color: white;
@@ -21,6 +25,7 @@
 
 .navbar li {
   margin-top: 10px;
+  list-style: none;
 }
 
 .navlogoback {

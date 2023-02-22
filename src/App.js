@@ -8,6 +8,7 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import FourOhFour from "./pages/404";
 import GlobalData from "./store/globalData";
+import Cart from "./pages/cart";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -30,6 +31,7 @@ function App() {
             <Route path="/catalog" element={<Catalog />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/about" element={<About />} />
+            <Route path="/cart" element={<Cart />} />
             <Route path="*" element={<FourOhFour />} />
           </Routes>
           <Footer />

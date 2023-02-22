@@ -1,7 +1,11 @@
 import "./navbar.css";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import DataContext from "./../store/dataContext";
 
 function Navbar() {
+  const cart = useContext(DataContext).cart;
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -49,17 +53,11 @@ function Navbar() {
                 </Link>
               </li>
             </ul>
-            <form className="d-flex" role="search">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button className="btn navborder" type="submit">
-                🔎Search
-              </button>
-            </form>
+            <li className="nav-item navborder" id="form-cart">
+              <Link className="nav-link navtext" to="/cart">
+                🛒{cart.length} View Cart
+              </Link>
+            </li>
           </div>
         </div>
       </nav>

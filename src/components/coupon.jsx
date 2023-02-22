@@ -20,7 +20,7 @@ function Coupon() {
   }
   return (
     <div className="coupon">
-      <h1>Coupon</h1>
+      <h2>Coupon</h2>
       <div className="container">
         <div className="mb-3">
           <label className="form-label">Code:</label>
@@ -29,7 +29,7 @@ function Coupon() {
             onChange={textChanged}
             type="text"
             id="txt-title"
-            className="form-control"
+            className="form-control bubby-1"
             placeholder="Coupon Code Here"
           />
         </div>
@@ -40,11 +40,13 @@ function Coupon() {
             onChange={textChanged}
             type="number"
             id="txt-category"
-            className="form-control"
+            className="form-control bubby-1"
             placeholder="Discount Here"
           />
         </div>
-        <button onClick={saved}>Save</button>
+        <button onClick={saved} className="btn btn-dark">
+          Save
+        </button>
       </div>
     </div>
   );
