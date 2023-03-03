@@ -24,12 +24,16 @@ function Products(properties) {
   }
   function handleAdd() {
     console.log("Add button clicked", properties.product);
-    addToCart(properties.product);
+    let copy= {...properties.product, quantity: quantity};
+    addToCart(copy);
   }
   return (
     <div className="product">
       <h5>{properties.product.title}</h5>
-      <img src={properties.product.image} alt="a placeholder image" />
+      <img
+        src={"/images/" + properties.product.image}
+        alt="a placeholder image"
+      />
       <div className="costs">
         <label className="total">Total:{"$" + total()}</label>
         <label className="price">

@@ -1,9 +1,23 @@
 import "./adminproducts.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import DataService from "./../services/dataService";
+import loadProducts from "./../services/dataService";
 
 function AdminProducts() {
   const [products, setProducts] = useState({});
   const [allProducts, setAllProducts] = useState([]);
+
+  useEffect(function () {
+    console.log("Admin Products Mounted");
+    loadCatalog();
+  }, []);
+  async function loadCatalog() {
+    let service = new DataService();
+    let products = await service.getData();
+    console.log(products);
+    setProducts(products);
+    setAllProducts(products);
+  }
   function textChanged(event) {
     let text = event.target.value;
     let attribute = event.target.name;
@@ -15,6 +29,12 @@ function AdminProducts() {
   }
   function save() {
     console.log("product saved: ", products);
+    let savedProducts = { ...products };
+    savedProducts.price = parseFloat(savedProducts.price);
+    // create an instance of the service
+    let service = new DataService();
+    // call the save method and pass saveProducts
+    service.saveProduct(savedProducts);
 
     let copy = [...allProducts];
     copy.push(products);
@@ -51,9 +71,10 @@ function AdminProducts() {
           <input
             name="image"
             onChange={textChanged}
-            type="file"
+            type="text"
             id="img-image"
             className="form-control bubby-1"
+            placeholder="Image Here"
           />
           {/* <select id="sel-gender" class="form-control">
             <option value="Male">Male</option>
@@ -78,7 +99,9 @@ function AdminProducts() {
       </div>
       <ul>
         {allProducts.map((product) => (
-          <li key={product.title}>{product.title}</li>
+          <li key={product.title}>
+            {product.title} - ${product.price}
+          </li>
         ))}
       </ul>
     </div>

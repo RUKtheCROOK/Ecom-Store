@@ -11,9 +11,9 @@ function Catalog() {
     console.log("Catalog Mounted");
     loadCatalog();
   }, []);
-  function loadCatalog() {
+  async function loadCatalog() {
     let service = new DataService();
-    let products = service.getData();
+    let products = await service.getData();
     console.log(products);
     setProducts(products);
 

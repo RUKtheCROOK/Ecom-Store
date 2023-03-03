@@ -19,10 +19,7 @@
     color: white;
   }
 }
-.navbar li {
-  margin-top: 10px;
-  list-style: none;
-}
+
 .navlogoback {
   background-color: white;
   border-radius: 50%;
@@ -41,6 +38,10 @@
 
 .navbar {
   background: linear-gradient(to top, #aaaaaa, white);
+   li {
+    margin-top: 10px;
+    list-style: none;
+  }
 }
 .navbar form {
   margin-right: 40px;
