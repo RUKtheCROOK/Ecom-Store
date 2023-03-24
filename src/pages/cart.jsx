@@ -18,6 +18,7 @@ function Cart() {
                   <img src={"/images/" + prod.image} />
                 </div>
                 <h2>{prod.title}</h2>
+                <h4>Quantity: {prod.quantity}</h4>
                 <h4>Price: ${prod.price * prod.quantity}</h4>
                 <h4>Category: {prod.category}</h4>
               </li>
